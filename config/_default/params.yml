@@ -26,10 +26,10 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
-description: "少女祈祷中..."
-subtitle: "少女祈祷中..."
+author: yanzhe-Xiao
+email: xyzxyzxyz6688@gmail.com
+description: "我知道你会来，所以我在等"
+subtitle: "我知道你会来，所以我在等"
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url
@@ -216,7 +216,7 @@ font:
   code:
     # - Ubuntu Mono
     # - Source Code Pro
-    # - JetBrains Mono
+    - JetBrains Mono
 
 # Local FallBack Font
 local_font:
@@ -400,10 +400,10 @@ algolia_search:
 preloader:
   enable: true
   text: 
-    zh-CN: 少女祈祷中...
+    zh-CN: 我知道你会来，所以我在等
     zh-TW: 少女祈禱中...
     en: Loading...
-    ja: 少女祈祷中...
+    ja: 我知道你会来，所以我在等
     pt-BR: Carregando...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
@@ -654,48 +654,57 @@ material_theme:
 
 internal_theme:
   light:
-    --red-0: '#ff0000'
-    --red-1: '#ff5252'
-    --red-2: '#ff7c7c'
-    --red-3: '#ffafaf'
-    --red-4: '#ffd0d0'
-    --red-5: '#ffecec'
-    --red-5-5: '#fff3f3'
-    --red-6: '#fff7f7'
-    --color-red-6-shadow: 'rgba(255, 78, 78, 0.6)'
-    --color-red-3-shadow: 'rgba(255, 78, 78, 0.3)'
+    # —— 主题主色（清新绿） ——
+    --red-0: '#00A870'     # 主按钮/强调色（偏祖母绿）
+    --red-1: '#12B981'     # hover / 次强调
+    --red-2: '#34D399'     # 成功/标签浅绿
+    --red-3: '#6EE7B7'
+    --red-4: '#A7F3D0'
+    --red-5: '#D1FAE5'
+    --red-5-5: '#ECFDF5'
+    --red-6: '#F0FDF4'
+    --color-red-6-shadow: 'rgba(16, 185, 129, 0.6)'
+    --color-red-3-shadow: 'rgba(16, 185, 129, 0.3)'
 
-    --highlight-nav: '#e6e6e6'
-    --highlight-scrollbar: '#d6d6d6'
-    --highlight-background: '#f7f7f7'
-    --highlight-current-line: '#dadada'
-    --highlight-selection: '#e9e9e9'
-    --highlight-foreground: '#4d4d4d'
-    --highlight-comment: '#7d7d7d'
-    --highlight-red: '#c8362b'
-    --highlight-orange: '#b66014'
-    --highlight-yellow: '#cb911d'
-    --highlight-green: '#2ea52e'
-    --highlight-aqua: '#479d9d'
-    --highlight-blue: '#1973b8'
-    --highlight-purple: '#7135ac'
+    # —— UI 背景/边框的微绿中性色 —— 
+    --highlight-nav: '#EAF7F1'
+    --highlight-scrollbar: '#D6EFE3'
+    --highlight-background: '#F5FBF8'
+    --highlight-current-line: '#E0F2EA'
+    --highlight-selection: '#E6F7EF'
+    --highlight-foreground: '#3A4B42'
+    --highlight-comment: '#7A9A8C'
+
+    # —— 代码高亮色（保持色谱，同时整体更柔和） ——
+    --highlight-red: '#D14B4B'
+    --highlight-orange: '#B9762E'
+    --highlight-yellow: '#C39A1C'
+    --highlight-green: '#22C55E'   # 关键字/字符串等可用绿
+    --highlight-aqua: '#40BFB4'
+    --highlight-blue: '#1F7BBF'
+    --highlight-purple: '#7C3AED'
+
   dark:
-    --red-4: 'rgba(255, 208, 208, 0.5)'
-    --red-5: 'rgba(255,228,228,0.15)'
-    --red-5-5: 'rgba(255,236,236,0.05)'
-    --red-6: 'rgba(255, 243, 243, 0.2)'
+    # —— 深色模式主色（半透明薄荷绿系） ——
+    --red-4: 'rgba(167, 243, 208, 0.5)'
+    --red-5: 'rgba(209, 250, 229, 0.15)'
+    --red-5-5: 'rgba(236, 253, 245, 0.06)'
+    --red-6: 'rgba(240, 253, 244, 0.22)'
 
-    --highlight-nav: '#2e353f'
-    --highlight-scrollbar: '#454d59'
-    --highlight-background: '#22272e'
-    --highlight-current-line: '#393939'
-    --highlight-selection: '#515151'
-    --highlight-foreground: '#cccccc'
-    --highlight-comment: '#999999'
-    --highlight-red: '#f47067'
-    --highlight-orange: '#f69d50'
-    --highlight-yellow: '#ffcc66'
-    --highlight-green: '#99cc99'
-    --highlight-aqua: '#66cccc'
-    --highlight-blue: '#54b6ff'
-    --highlight-purple: '#dcbdfb'
+    # —— 深色背景带一点冷绿调 —— 
+    --highlight-nav: '#22302A'
+    --highlight-scrollbar: '#34433B'
+    --highlight-background: '#1B2520'
+    --highlight-current-line: '#2B3A33'
+    --highlight-selection: '#33483F'
+    --highlight-foreground: '#CFE8DA'
+    --highlight-comment: '#8AB39B'
+
+    # —— 深色下的代码高亮 —— 
+    --highlight-red: '#F0706A'
+    --highlight-orange: '#F2A456'
+    --highlight-yellow: '#FFD166'
+    --highlight-green: '#34D399'
+    --highlight-aqua: '#7AD7CF'
+    --highlight-blue: '#58B3FF'
+    --highlight-purple: '#D6B7FF'
