@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://yanzhe-xiao.github.io/'
 languageCode = 'zh-CN'
 title = 'yanzhe-Xiao'
 theme = 'hugo-theme-reimu'

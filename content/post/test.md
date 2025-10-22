@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "Test"
+date: 2025-10-22T22:56:20+08:00
+lastmod: 2025-10-22T22:56:20+08:00
 summary: ""
 weight: 0
 categories: []
@@ -17,5 +17,5 @@ photos: []
 sidebar: right
 toc: true
 outdated: false
-author: "Yanzhe Xiao"
+author: "Your Name"
 ---
